@@ -1,24 +1,4 @@
 
-# p=0  
-# l=0
-# i =0
-# j=0
-# while n > i:
-
-#     i = 1 /n * (k **p) + i
-
-#     v = 1 /i
-
-#     p+=1
-
-#     # l = v *summition (1/k^p)
-#     # i = int(v/k**p) +i
-#     k_power_p = k ** p
-#     result = v / k_power_p
-#     i = result + i
-
-# print(int(v))
-
 
 
 n,k = map(int, input().split())
