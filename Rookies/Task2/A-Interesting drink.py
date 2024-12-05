@@ -14,9 +14,9 @@ def binary(prices, day):
     while low <= high:
         mid = (low + high) // 2
         if prices[mid] <= day:
-            low = mid + 1  # Search for more affordable shops
+            low = mid + 1  
         else:
-            high = mid - 1  # Reduce the range
+            high = mid - 1  
     return low
 
 
